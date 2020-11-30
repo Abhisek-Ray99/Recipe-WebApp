@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Kaiju";
+    src: './Kaiju.ttf';
+}
+@font-face{
+    font-family: "Orbitron";
+    src: './Orbitron-VariableFont_wght.ttf';
+}
+@font-face{
+    font-family: 'Casta Thin Slant';
+    src: local('Casta Thin Slant'), url("./Casta-ThinSlanted.otf") format('truetype');
+}

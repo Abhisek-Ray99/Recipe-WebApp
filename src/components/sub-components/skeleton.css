@@ -1,0 +1,52 @@
+.card-image{
+  right: 0;
+  left: 0;
+  margin-left: 100px;
+}
+.list{
+  display: flex;
+  margin-left: -20px;
+}
+.card{
+  list-style: none;
+  width: 14.7%;
+}
+.card-image{
+  margin: 0 0 10px 35px;
+  /* border: 3px solid #323A61; */
+}
+
+.card-text{
+  margin-left: 55px;
+  text-align: center;
+  color: rgb(41, 110, 112);
+}
+.card-p{
+  margin-top: 10px;
+  display: flex;
+}
+.card-time{
+  color: wheat;
+  background-color: blueviolet;
+}
+.card-time:hover{
+  color: blueviolet;
+  background-color: wheat;
+}
+
+
+.skeleton-flex{
+  display: flex;
+  justify-content: center;
+  margin-left: -45px;
+}
+.skele-card{
+  list-style: none;
+}
+.skele-title{
+  margin-left: 80px;
+  margin-bottom: 4px;
+}
+.skele-p{
+  margin-left: 50px;
+}
