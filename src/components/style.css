@@ -8,7 +8,7 @@
 
 /*-------------------------- Nav-bar --------------------------*/
 nav{
-    min-height: 6vh;
+    min-height: 8vh;
     position: fixed;
     z-index: 3;
     background-color: #E9E6D8;

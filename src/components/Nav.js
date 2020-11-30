@@ -14,7 +14,7 @@ function Nav() {
       <input type="checkbox" id="menu-control" className="menu-control"></input>
       <aside className="sidebar">
         <ul className="nav-links sidebar__menu">
-          <h3 className="logo">Recipe</h3>
+          
           <img
             className="gif-two"
             src="https://media.giphy.com/media/3ohzdYBwEDAe0dPhx6/giphy.gif"
@@ -26,6 +26,7 @@ function Nav() {
           <Link className="link-style nav-link-grow-up" to="/explore">
             <li>Explore</li>
           </Link>
+          <h3 className="logo">Recipe</h3>
           <Link className="link-style nav-link-grow-up" to="/about">
             <li>About</li>
           </Link>
