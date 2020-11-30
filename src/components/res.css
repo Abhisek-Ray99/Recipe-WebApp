@@ -126,4 +126,36 @@
         display: flex;
         margin-left: 5.5em;
     }
+
+    /* contact */
+    
+    .head-contact{
+        width: 100vw;
+        height: 70vh;
+    }
+    .row{
+        margin: 100px 10px 0px 10px;
+    }
+    .contact-message{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 20px 10px;
+    }
+    .info-name{
+        height: 30px;
+    }
+    .info-email{
+        width: 20em;
+        height: 30px;
+        margin: 20px 0 0 0;
+    }
+    .sub-input{
+        width: 25em;
+        height: 30px;
+        margin-left: 10px;
+    }
 }

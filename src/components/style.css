@@ -293,7 +293,16 @@ form > .search-bar:focus {
 }
 
 /*----------------------- Contact section -----------------------*/
-
+.contact-title{
+    color: #8f1bdc;
+    text-align: center;
+    font-size: 30px;
+}
+hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(13, 59, 187, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
 .head-contact{
     width: 100vw;
     height: 100vh;
@@ -304,15 +313,17 @@ form > .search-bar:focus {
     margin: 200px;
     background-color: #B3D9D5;
     border-radius: 7px;
+    box-shadow: 0 10px 6px -6px #777;
 }
 .contact-message{
     border-radius: 7px;
     font-size: 13px;
     background: transparent;
-    border: 3px solid #ccc;
+    border: 3px solid  #8f1bdc;
     -webkit-transition: 0.5s;
     outline: none;
     padding: 10px;
+    margin: 20px 20px 0 20px;
 }
 .contact-message:focus{
     border: 3px solid #555;
@@ -320,10 +331,10 @@ form > .search-bar:focus {
 
 .contact-info{
     display: flex;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 20px;
 }
 .info-name{
-    border: 3px solid #ccc;
+    border: 3px solid  #8f1bdc;
     -webkit-transition: 0.5s;
     border-radius: 7px;
     height: 48px;
@@ -336,7 +347,7 @@ form > .search-bar:focus {
     border: 3px solid #555;
 }
 .info-email{
-    border: 3px solid #ccc;
+    border: 3px solid #8f1bdc;
     -webkit-transition: 0.5s;
     border-radius: 7px;
     width: 20em;
@@ -354,7 +365,7 @@ form > .search-bar:focus {
     margin: 20px 0 20px 0;
 }
 .sub-input{
-    border: 3px solid #ccc;
+    border: 3px solid  #8f1bdc;
     -webkit-transition: 0.5s;
     border-radius: 7px;
     width: 36.4em;
@@ -363,12 +374,13 @@ form > .search-bar:focus {
     font-size: 13px;
     background: transparent;
     outline: none;
+    margin-left: 20px;
 }
 .sub-input:focus{
     border: 3px solid #555;
 }
 .contact-btn{
-    background: #fff;
+    background: #8f1bdc;
     display: inline-block;
     padding: 18px 44px;
     font-size: 14px;
@@ -377,13 +389,14 @@ form > .search-bar:focus {
     border: 1px solid #8f1bdc;
     letter-spacing: 3px;
     text-align: center;
-    color: #8f1bdc;
+    color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    margin: 0 0 20px 20px;
 }
 .contact-btn:hover{
     color: #fff;
-    background: #8f1bdc;
+    background: #7613b8;
 }
 
 
