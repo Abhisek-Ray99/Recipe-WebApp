@@ -4,6 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './style.css';
+import './res.css';
 import dummyData from './dummyData/dummyData';
 import dummyData2 from './dummyData/dummyData2';
 import dummyData3 from './dummyData/dummyData3';

@@ -2,9 +2,65 @@
     body{
         width: 91vw;
     }
+
+    /* nav */
+    
+
     /* hero */
+    .hero-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .hero-image{
-        width: 6em;
+        width: 24em;
+    }
+    .hero-para{
+        margin-left: 2px;
+    }
+    .hero-h{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .hero-p{
+        margin: 19px 20px 23px 20px;
+    }
+    .search_h1{
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 0 0px;
+    }
+    .search_h1::before{
+        width: 85%;
+        height: 30%;
+    }
+    .search-form{
+        margin: 100px 20px 80px 30px;      
+    }
+    form > .search-bar {
+        height: 50px;
+        width: 260px;
+        padding: 0 16px;
+    }
+    .search-button{
+        padding: 12px 15px;
+    }
+
+    /* recipes */
+    
+    .recipe-ingredient{
+        font-size: 10px;
+    }
+
+    /* explore */
+    .explore-h1{
+        font-size: 35px;
+        margin: 100px 0 0 20px;
+        color: #5B8881;
+    }
+    .list{
+        display: flex;
+        margin-left: -20px;
     }
 
     /* about */
