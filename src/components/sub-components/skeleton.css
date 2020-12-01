@@ -50,3 +50,16 @@
 .skele-p{
   margin-left: 50px;
 }
+
+
+
+@media screen and (max-width: 600px){
+  .card{
+    list-style: none;
+    width: 10%;
+    height: 20%;
+  }
+  .card-image{
+    /* margin: 0 25px 10px 95px; */
+  }
+}
